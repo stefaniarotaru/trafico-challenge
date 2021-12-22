@@ -4,7 +4,7 @@ import mobel from '../images/mobel.svg'
 import Button from '../components/Button'
 import aos from 'aos'
 
-const Top2 = () => {
+const Top = () => {
     aos.init();
 
 
@@ -76,4 +76,4 @@ const Top2 = () => {
     )
 }
 
-export default Top2
+export default Top

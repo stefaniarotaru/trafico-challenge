@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../images/logo.svg'
 
-const Navbar2 = ({ toggle }) => {
+const Navbar = ({ toggle }) => {
     return (
 
         <div className='absolute
@@ -81,4 +81,4 @@ const Navbar2 = ({ toggle }) => {
     )
 }
 
-export default Navbar2
+export default Navbar
