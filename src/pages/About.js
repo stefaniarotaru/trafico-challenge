@@ -4,11 +4,13 @@ import illustration from '../images/Illustration.svg'
 const About = () => {
     return (
 
-        <div className='grid grid-cols-1 md:grid-cols-2'>
-            <div className='font-rubik 
+        <div className='grid 
+        grid-cols-1 
+        md:grid-cols-2'>
 
+            <div className='font-rubik 
             w-full
-            px-[1rem]
+            px-[2rem]
 
             md:w-[28rem]
             md:ml-[3rem]
