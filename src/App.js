@@ -8,6 +8,8 @@ import Faq from './pages/Faq';
 import Footer from './pages/Footer';
 import Dropdown from './components/Dropdown';
 import { useState, useEffect } from 'react'
+import aos from 'aos'
+import 'aos/dist/aos.css';
 
 function App() {
 
@@ -29,10 +31,16 @@ function App() {
     }
   })
 
+  aos.init();
+
   return (
     <div className='relative bg-[#FEF8F5] overflow-hidden'>
 
-      <div className='h-[90rem]'>
+      <div className='
+      h-[80rem]
+      md:h-[80rem]
+      lg:h-[85rem]
+      xl:h-[90rem]'>
         <Navbar toggle={toggle}/>
         <Dropdown isOpen={isOpen} toggle={toggle} />
         <Top />

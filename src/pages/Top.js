@@ -2,13 +2,8 @@ import React from 'react'
 import scene from '../images/Scene.svg'
 import mobel from '../images/mobel.svg'
 import Button from '../components/Button'
-import aos from 'aos'
 
 const Top = () => {
-    aos.init();
-
-
-
     return (
         <div className='absolute w-full'>
 
