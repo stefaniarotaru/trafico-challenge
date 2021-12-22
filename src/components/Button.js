@@ -18,6 +18,7 @@ const Button = () => {
                 px-7
                 rounded-[0.313rem]
                 font-rubik
+                font-bold
 
                 top-[22.5rem]
                 left-[2rem]

@@ -16,6 +16,7 @@ const Navbar = ({ toggle }) => {
             lg:w-[68rem]
             xl:w-[85rem]
             font-rubik
+            font-bold
             text-white
             z-10
             '>
