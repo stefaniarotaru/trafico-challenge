@@ -5,12 +5,14 @@ const Navbar = ({ toggle }) => {
     return (
 
         <div className='absolute
+            w-full
             flex 
             justify-between 
             items-center
             w-[40rem]
-            mt-[4rem]
+            mt-[1.5rem]
             md:w-[50rem]
+            md:mt-[4rem]
             lg:w-[68rem]
             xl:w-[85rem]
             font-rubik
@@ -38,6 +40,7 @@ const Navbar = ({ toggle }) => {
                     stroke='white'
                     viewBox='0 0 24 24'
                     xmlns='http://www.w3.org/2000/svg'
+                    
                 >
                     <path
                         strokeLinecap='round'

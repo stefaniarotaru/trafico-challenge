@@ -6,6 +6,7 @@ import About from './pages/About';
 import Howto from './pages/Howto';
 import Faq from './pages/Faq';
 import Footer from './pages/Footer';
+import Dropdown from './components/Dropdown';
 import { useState, useEffect } from 'react'
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
     const hideMenu = () => {
       if (window.innerWidth > 768 && isOpen) {
         setIsOpen(false)
-        console.log('i resizedd')
+        
       }
     }
     window.addEventListener('resize', hideMenu);
@@ -33,6 +34,7 @@ function App() {
 
       <div className='h-[90rem]'>
         <Navbar toggle={toggle}/>
+        <Dropdown isOpen={isOpen} toggle={toggle} />
         <Top />
       </div>
 
