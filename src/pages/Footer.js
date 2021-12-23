@@ -4,7 +4,9 @@ import bg from '../images/BG.svg'
 const Footer = () => {
     return (
         <>
-        <div>
+        <div className='relative mt-[140rem]
+        lg:mt-[117rem]
+        xl:mt-[117rem]'>
             <img src={bg}/>
         </div>
             

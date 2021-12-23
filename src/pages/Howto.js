@@ -29,7 +29,7 @@ const Howto = () => {
                     text-2xl 
                     font-bold'>HOW TO APPLY</p>
 
-                    <p className='text-[#402B2B] absolute
+                    <p className='text-[#402B2B]
                 text-lg
                 font-light
                 leading-10 
