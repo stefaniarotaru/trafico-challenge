@@ -8,6 +8,7 @@ const Button = () => {
         <div>
 
             <a href="#" className='
+                w-[14rem]
                 absolute
                 bg-[#EE4D47]
                 hover:bg-[#FF4D47]
@@ -19,18 +20,6 @@ const Button = () => {
                 rounded-[0.313rem]
                 font-rubik
                 font-bold
-
-                top-[22.5rem]
-                left-[2rem]
-
-                md:top-[28rem]
-                md:left-[8rem]
-
-                lg:top-[32rem]
-                lg:left-[12rem]
-
-                xl:top-[41rem]
-                xl:left-[18rem]
                 '> GET STARTED
 
                 <img src={union} className='

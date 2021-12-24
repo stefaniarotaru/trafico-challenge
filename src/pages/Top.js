@@ -50,7 +50,20 @@ const Top = () => {
                 </div>
             </div>
 
-            <Button/>
+            <div className='absolute
+                top-[22.5rem]
+                left-[2rem]
+
+                md:top-[28rem]
+                md:left-[8rem]
+
+                lg:top-[32rem]
+                lg:left-[12rem]
+
+                xl:top-[41rem]
+                xl:left-[18rem]'>
+                <Button />
+            </div>
 
             <div className='absolute
                 top-[58rem]

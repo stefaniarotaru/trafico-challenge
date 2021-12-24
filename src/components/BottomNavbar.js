@@ -1,23 +1,21 @@
 import React from 'react'
 import logo from '../images/logo.svg'
-import ContactButton from './ContactButton'
 
-const Navbar = ({ toggle }) => {
+const BottomNavbar = () => {
     return (
-
         <div className='absolute
             w-full
             flex 
             justify-between 
             items-center
             w-[40rem]
-            mt-[1.5rem]
+            -mt-[26rem]
             md:w-[50rem]
-            md:mt-[4rem]
+            md:mt-[24rem]
             lg:w-[68rem]
             xl:w-[85rem]
             font-rubik
-            font-bold
+            font-normal
             text-white
             z-10
             '>
@@ -34,50 +32,35 @@ const Navbar = ({ toggle }) => {
                 xl:ml-[18rem]'/>
             </div>
 
-            <div className="mr-[16rem] cursor-pointer md:hidden"
-                onClick={toggle}>
-                <svg
-                    className='w-8 h-8'
-                    fill='none'
-                    stroke='white'
-                    viewBox='0 0 24 24'
-                    xmlns='http://www.w3.org/2000/svg'
-                    
-                >
-                    <path
-                        strokeLinecap='round'
-                        strokeLinejoin='round'
-                        strokeWidth='2'
-                        d='M4 6h16M4 12h16M4 18h16'
-                    />
-                </svg>
-            </div>
 
             <div className='
                 relative
                 whitespace-nowrap
-                hidden                
+                flex
+                flex-col     
+                -left-[30rem]
+                mt-[34rem]
+                md:mt-[0rem]
+                gap-y-[6rem]
+                         
 
-                md:gap-x-[3.5rem]
-                md:left-[0rem]
-                md:flex
+                md:gap-x-[7rem]
+                md:left-[5rem]
+                md:flex-row
 
-                lg:gap-x-[5rem]
-                lg:left-[5rem]
+                lg:gap-x-[6.4rem]
+                lg:left-[0.5rem]
                 
-                xl:gap-x-[10rem]
-                xl:left-[13.5rem]
+                xl:-left-[8.5rem]
                 
                 '>
                 <a href='#' className='pt-3 hover:text-[#FF4D47]'>ABOUT</a>
                 <a href='#' className='pt-3 hover:text-[#FF4D47]'>HOW TO</a>
                 <a href='#' className='pt-3 hover:text-[#FF4D47]'>FAQS</a>
 
-                <ContactButton/>
             </div>
         </div>
-
     )
 }
 
-export default Navbar
+export default BottomNavbar

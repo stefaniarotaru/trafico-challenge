@@ -7,7 +7,10 @@ import Question from '../components/Question'
 const Faq = () => {
     return (
         <>
-            <div>
+            <div className='
+            h-[165rem]
+            md:h-[130rem]
+            lg:h-[93.75rem]'>
                 <img src={rectangle} className='float-right relative' />
                 <img src={group} className='absolute 
 
@@ -54,7 +57,7 @@ const Faq = () => {
                     text-[2rem]
                     lg:text-[3rem]
                     mt-[4rem]                    
-                    ml-[1rem]
+                    ml-[2rem]
                     md:ml-0'>Questions and Answers on Professional Traffic Permits:</p>
 
 
