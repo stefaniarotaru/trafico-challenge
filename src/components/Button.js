@@ -1,12 +1,13 @@
 import React from 'react'
 import union from '../images/Union.svg'
+import { Link } from 'react-router-dom'
 
 const Button = () => {
 
     return (
         <div>
 
-            <a href="/getstarted" className='
+            <Link to="/getstarted" className='
                 w-[14rem]
                 absolute
                 bg-[#EE4D47]
@@ -24,7 +25,7 @@ const Button = () => {
                 <img src={union} className='
                 inline
                 ml-6' />
-            </a>
+            </Link>
         </div>
 
     )
