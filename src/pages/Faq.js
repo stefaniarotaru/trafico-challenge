@@ -2,7 +2,6 @@ import React from 'react'
 import rectangle from '../images/Rectangle9.svg'
 import group from '../images/Group14.svg'
 import QuestionList from '../components/QuestionList'
-import Question from '../components/Question'
 
 const Faq = () => {
     return (

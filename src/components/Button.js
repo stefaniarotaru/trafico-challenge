@@ -1,5 +1,4 @@
 import React from 'react'
-import { useState } from 'react'
 import union from '../images/Union.svg'
 
 const Button = () => {
@@ -7,7 +6,7 @@ const Button = () => {
     return (
         <div>
 
-            <a href="#" className='
+            <a href="/getstarted" className='
                 w-[14rem]
                 absolute
                 bg-[#EE4D47]
