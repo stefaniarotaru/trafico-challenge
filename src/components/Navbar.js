@@ -31,7 +31,7 @@ const Navbar = ({ toggle }) => {
                 md:ml-[6rem]
                 lg:ml-[12rem]
                 xl:w-[13.25rem]
-                xl:ml-[18rem]'/>
+                xl:ml-[15rem]'/>
             </div>
 
             <div className="mr-[16rem] cursor-pointer md:hidden"
@@ -65,8 +65,8 @@ const Navbar = ({ toggle }) => {
                 lg:gap-x-[5rem]
                 lg:left-[5rem]
                 
-                xl:gap-x-[10rem]
-                xl:left-[13.5rem]
+                xl:gap-x-[8.5rem]
+                xl:-left-[1rem]
                 
                 '>
                 <a href='#about' className='pt-3 hover:text-[#FF4D47]'>ABOUT</a>

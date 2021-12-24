@@ -43,8 +43,8 @@ const Top = () => {
                 lg:text-[5rem]
                 lg:w-[40rem]
 
-                xl:left-[18rem]
-                xl:top-[16rem]
+                xl:left-[15rem]
+                xl:top-[12rem]
                 xl:text-[6.25rem]'>
                     Your awesome traffic permit consultant.
                 </div>
@@ -60,8 +60,8 @@ const Top = () => {
                 lg:top-[32rem]
                 lg:left-[12rem]
 
-                xl:top-[41rem]
-                xl:left-[18rem]'>
+                xl:top-[34.8rem]
+                xl:left-[15rem]'>
                 <Button />
             </div>
 
