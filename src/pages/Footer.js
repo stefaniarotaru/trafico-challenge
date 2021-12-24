@@ -22,7 +22,10 @@ const Footer = () => {
 
                 <img src={car} className='absolute 
                 -mt-[111rem]
-                md:-mt-[61rem]'/>
+                md:-mt-[61rem]'
+                data-aos="fade-right"
+                data-aos-duration="1600"
+                data-aos-once="true"/>
 
                 <div className='absolute
 
