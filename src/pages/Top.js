@@ -66,13 +66,13 @@ const Top = () => {
             </div>
 
             <div className='absolute
-                top-[58rem]
+                top-[60rem]
                 w-[20rem]
                 md:top-[49rem]
                 md:w-[30rem] 
                 lg:top-[50rem]
                 lg:w-full
-                xl:top-[55rem]
+                xl:top-[50rem]
                 '
                 data-aos="fade-right"
                 data-aos-duration="1600"
