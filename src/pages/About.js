@@ -4,7 +4,7 @@ import illustration from '../images/Illustration.svg'
 const About = () => {
     return (
 
-        <div className='grid 
+        <div id='about' className='grid 
         grid-cols-1 
         md:grid-cols-2'>
 

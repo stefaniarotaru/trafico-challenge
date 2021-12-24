@@ -4,7 +4,8 @@ import illustration from '../images/illustrations.svg'
 const Howto = () => {
     return (
         <>
-            <div className='grid 
+            <div  id='howto' 
+            className='grid 
             grid-cols-1 
             md:grid-cols-2
             md:mt-[10rem]
@@ -24,8 +25,7 @@ const Howto = () => {
                 w-full
                 px-[2rem] '>
 
-                    <p id='howto'
-                        className='text-[#EE4D47]
+                    <p className='text-[#EE4D47]
                     text-2xl 
                     font-bold'>HOW TO APPLY</p>
 

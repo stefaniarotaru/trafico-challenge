@@ -4,8 +4,8 @@ import UserInput from './UserInput'
 
 const UserForm = () => {
     return (
-        <div className='
-        w-[22rem]
+        <div id='contact'
+        className='w-[22rem]
  
         h-[27.5rem] 
         bg-white 

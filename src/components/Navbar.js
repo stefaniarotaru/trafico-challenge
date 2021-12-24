@@ -69,9 +69,9 @@ const Navbar = ({ toggle }) => {
                 xl:left-[13.5rem]
                 
                 '>
-                <a href='#' className='pt-3 hover:text-[#FF4D47]'>ABOUT</a>
-                <a href='#' className='pt-3 hover:text-[#FF4D47]'>HOW TO</a>
-                <a href='#' className='pt-3 hover:text-[#FF4D47]'>FAQS</a>
+                <a href='#about' className='pt-3 hover:text-[#FF4D47]'>ABOUT</a>
+                <a href='#howto' className='pt-3 hover:text-[#FF4D47]'>HOW TO</a>
+                <a href='#faq' className='pt-3 hover:text-[#FF4D47]'>FAQS</a>
 
                 <ContactButton/>
             </div>

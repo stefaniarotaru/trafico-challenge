@@ -7,8 +7,8 @@ import Question from '../components/Question'
 const Faq = () => {
     return (
         <>
-            <div className='
-            h-[165rem]
+            <div id='faq'
+            className='h-[165rem]
             md:h-[130rem]
             lg:h-[93.75rem]'>
                 <img src={rectangle} className='float-right relative' />

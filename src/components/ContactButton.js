@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactButton = () => {
     return (
-        <a href="#" className='bg-[#EE4D47]
+        <a href="#contact" className='bg-[#EE4D47]
         hover:bg-[#FF4D47]
         text-white
         rounded-[0.313rem]
