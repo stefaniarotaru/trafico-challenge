@@ -11,16 +11,15 @@ const LoadButton = () => {
     const [text, setText] = useState('LOAD MORE');
 
     const toggle = () => {
-        
         setIsOpen(!isOpen);
+        console.log('isOpen: ', isOpen);
         setIcon(isOpen ? plus : minus);
         setText(isOpen ? 'LOAD MORE' : 'LOAD LESS');
     }
 
-    return (
-        <div>
-
-            <div className='w-[24rem]
+    return (     
+            <div onClick={toggle}
+            className='w-[24rem]
                 md:w-[32rem]
                 
                 xl:w-[34.375rem]
@@ -43,10 +42,8 @@ const LoadButton = () => {
                 '>
                 <p className='text-center inline-block w-full'>{text}</p>
 
-                <img src={icon} className='w-[1.125rem]' onClick={toggle} />
+                <img src={icon} className='w-[1.125rem]'/>
             </div>
-        </div>
-
     )
 }
 
