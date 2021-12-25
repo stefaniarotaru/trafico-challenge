@@ -10,8 +10,8 @@ import instagram from '../images/i.svg'
 const Footer = () => {
     return (
         <>
-            <div className='mt-[8rem]   
-            lg:mt-[18rem]
+            <div className='mt-[16rem]   
+            lg:mt-[20rem]
             h-[100rem]
             md:h-[50rem]'>
                 <img src={bg} className='relative 
