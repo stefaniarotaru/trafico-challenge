@@ -17,7 +17,7 @@ const Question = (props) => {
     }
 
     return (
-        <div className=''>
+        <div onClick={toggle}>
             <div className={
                 `w-[24rem]
                 xl:h-[6rem]
@@ -36,6 +36,7 @@ const Question = (props) => {
                 flex
                 flex-row
                 relative
+                cursor-pointer
             
                 `}>
                 <p className='w-[25rem] '>{question.title}
@@ -44,7 +45,7 @@ const Question = (props) => {
 
                 <img src={icon}
                     className='w-[1.125rem] ml-[5rem]'
-                    onClick={toggle} />
+                     />
 
 
             </div>
