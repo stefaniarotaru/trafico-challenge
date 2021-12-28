@@ -1,7 +1,7 @@
 import React from 'react'
 import scene from '../images/Scene.svg'
 import mobel from '../images/mobel.svg'
-import Button from '../components/Button'
+import GetStartedButton from '../components/GetStartedButton'
 
 const Top = () => {
     return (
@@ -62,7 +62,7 @@ const Top = () => {
 
                 xl:top-[34.8rem]
                 xl:left-[15rem]'>
-                <Button />
+                <GetStartedButton />
             </div>
 
             <div className='absolute

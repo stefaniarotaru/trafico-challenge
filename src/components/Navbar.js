@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/logo.svg'
-import ContactButton from './ContactButton'
+import Button from './Button'
 
 const Navbar = ({ toggle }) => {
     return (
@@ -73,7 +73,7 @@ const Navbar = ({ toggle }) => {
                 <a href='#howto' className='pt-3 hover:text-[#FF4D47]'>HOW TO</a>
                 <a href='#faq' className='pt-3 hover:text-[#FF4D47]'>FAQS</a>
 
-                <ContactButton/>
+                <Button text='CONTACT US' link='#contact'/>
             </div>
         </div>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './Button'
+import GetStartedButton from './GetStartedButton'
 import UserInput from './UserInput'
 
 const UserForm = () => {
@@ -44,7 +44,7 @@ const UserForm = () => {
             <div className='mt-[1.875rem]
             ml-[4.6rem]
             leading-6'>
-                <Button />
+                <GetStartedButton />
             </div>
 
 
